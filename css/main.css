@@ -3,7 +3,7 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family: 'Noto Sans KR', 'Trebuchet MS', 'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:  'Trebuchet MS', 'Helvetica', 'Arial', 'Noto Sans KR', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
