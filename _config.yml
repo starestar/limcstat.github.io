@@ -1,2 +1,7 @@
-name: Spatial Statistics Lab
-markdown: kramdown
+title: "Spatial Statistics Lab"
+description: "Spatial Statistics Lab Webpage Practice"
+email: "thanyou833@gmail.com"
+
+
+baseurl: "/JekyllPractice"
+url: "http://https://gatepsev.github.io/JekyllPractice/"

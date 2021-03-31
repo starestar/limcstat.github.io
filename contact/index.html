@@ -1,0 +1,79 @@
+<html>
+<title> Spatial Statistics Lab</title>
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/JekyllPractice/js/includeHTML.js"></script>
+  </head>
+  
+  <style>
+    body, h1,h2 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #contact {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#contact {margin-left: 0}}
+  </style>
+  
+  <div class="w3-black">
+    
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center" include-html="/JekyllPractice/include/iconbar.html"></nav>
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar" include-html="/JekyllPractice/include/smalliconbar.html"></div>
+
+    <!-- Contact Section -->
+    <div class="w3-padding-64 w3-content w3-text-grey", id = "contact">
+      <h2 class="w3-text-light-grey">Contact US</h2>
+      <hr style="width:200px" class="w3-opacity">
+
+      <div class="w3-section", style="width:400px">
+        <div style="width:60px;float:left"><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right" style = "margin-top:40px"></i></div>
+        <div style="width:300px;float:left;margin-bottom: 20px">
+          Room 302, Building 25 <br>
+          <a href="https://stat.snu.ac.kr/" target="_blank">Department of Statistics</a><br>
+          <a href="http://www.snu.ac.kr/index.html" target="_blank">Seoul National University</a><br>
+          1 Gwanak-ro, Gwanak-gu <br>
+          Seoul, 08826, Korea
+        </div>
+        <div style="width:60px;float:left"><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i></div>
+        <div style="width:300px;float:left;margin-bottom: 20px">
+          Phone: +82-2-880-8838<br>
+          Fax: +82-2-883-6144
+        </div>
+        <div style="width:60px;float:left"><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"></i></div>
+        <div style="width:300px;float:left;margin-top: 5px">
+          Email: limc@stat.snu.ac.kr
+        </div>
+        <div style="width:400px;float:left;margin-top:50px"><p>Let's get in touch</p></div>
+      </div>
+      
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+        <p>
+          <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+      
+      <!-- footer -->
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge" include-html="/JekyllPractice/include/footer.html"></footer>
+  <!-- End Contact Section -->
+  </div>
+     
+  </body>
+  
+  <script>
+      includeHTML();
+  </script>
+</html>
