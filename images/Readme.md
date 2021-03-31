@@ -1,4 +1,5 @@
-Every image is made by Spatial statistics Lab or 
+Here is list of image reference which is not made by Spatial statistics Lab.
+
 geostat.jpg
 https://commons.wikimedia.org/wiki/File:Annual_Average_Temperature_Map.png
 
