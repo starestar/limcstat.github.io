@@ -9,6 +9,29 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="/js/includeHTML.js"></script>
+     
+     .description {
+  font-family: "Unica One", sans-serif;
+  font-size: 1.25rem;
+  position: absolute;
+  display: block;
+  right: 2rem;
+  left: 2rem;
+  text-align: center;
+  top: 50%;
+  width: 60px;
+  margin: auto;
+  color: white;
+  z-index: 100;
+  opacity: 0;
+  transform: translate3d(0, -50%, 0);
+  transition: .3s 0s;
+}
+
+li:hover .description {
+  opacity: 1; 
+  transition: .6s .3s;
+}
   </head>
   
   <style include-html="/include/style.html"></style>
