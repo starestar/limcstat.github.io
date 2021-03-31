@@ -9,29 +9,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="/js/includeHTML.js"></script>
-     
-     .description {
-  font-family: "Unica One", sans-serif;
-  font-size: 1.25rem;
-  position: absolute;
-  display: block;
-  right: 2rem;
-  left: 2rem;
-  text-align: center;
-  top: 50%;
-  width: 60px;
-  margin: auto;
-  color: white;
-  z-index: 100;
-  opacity: 0;
-  transform: translate3d(0, -50%, 0);
-  transition: .3s 0s;
-}
-
-li:hover .description {
-  opacity: 1; 
-  transition: .6s .3s;
-}
   </head>
   
   <style include-html="/include/style.html"></style>
@@ -50,31 +27,16 @@ li:hover .description {
         <h1 class="w3-jumbo"><span class="w3-hide-small">Spatial Statistic Lab</h1>
         <p>Department of Statistics, Seoul National University</p>
         <!--<img src="/images/spat_banner.jpg" style="width:1000px">-->
-        <section>
-          <!--<style include-html="/include/hoverstyle.html"></style>-->
-          <ul class="grid">
-            <li>
-              <a href="#">
-                <img src="/images/geostat.jpg" alt="" style="width:40%">
-                <span class="description">Geostatistics</span>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/images/lattice.jpg" alt="" style="width:20%">
-                <!--<span class="description">Lattice Data</span>-->
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="/images/pointprocess.jpg" alt="" style="width:20%">
-                <!--<span class="description">Point Process</span>-->
-              </a>
-            </li>
-
-          </ul>
-        </section>
-      </header>
+        <div class="row">
+          <div class="column">
+            <img src="/images/geostat.jpg" alt="">
+          </div>
+          <div class="column">
+            <img src="/images/lattice.jpg" alt="" style="width:20%">
+            <img src="/images/pointprocess.jpg" alt="" style="width:20%">
+          </div>
+        </div>
+      </div>
 
       <!-- About Section -->
       <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
