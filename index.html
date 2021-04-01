@@ -1,76 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <title> Welcome to Spatial Statistics Lab</title>
-  
-   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="/js/includeHTML.js"></script>
-  </head>
+	<title> Welcome to Spatial Statistics Lab</title>
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="/js/includeHTML.js"></script>
+		<script src="/js/slideshowjs.js"></script>
+	</head>
 	
 	<style include-html="/include/style.html"></style>
 	<style include-html="/include/hoverstyle.html"></style>
+	<style include-html="/include/slideshow.html"></style>
   
-  <body class="w3-black">
-    
-    <!-- Icon Bar (Sidebar - hidden on small screens) -->
-    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center" include-html="/include/iconbar.html"></nav>
-    <!-- Navbar on small screens (Hidden on medium and large screens) -->
-    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar" include-html="/include/smalliconbar.html"></div>
-
-    <!-- Page Content -->
-    <div class="w3-padding-large" id="main">
-      <!-- Header/Home -->
-      <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-        <h1 class="w3-jumbo"><span class="w3-hide-small">Spatial Statistics Lab</h1>
-        <p>Department of Statistics, Seoul National University</p>
-        <!--<img src="/images/spat_banner.jpg" style="width:1000px">-->
-		
-		
-	<div class="w3-padding-large", id="main">
-		<div class="w3-cell-row" style="width:80%">
-			<div class="w3-cell" style="width:60%">
-				<div class="container">
-					<img src="/images/geostat.jpg" alt="Avatar" class="image">
-					<div class="overlay">
-						<div class="text">Geostatistics</div>
+	<body class="w3-black">
+		<!-- Icon Bar (Sidebar - hidden on small screens) -->
+		<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center" include-html="/include/iconbar.html"></nav>
+		<!-- Navbar on small screens (Hidden on medium and large screens) -->
+		<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar" include-html="/include/smalliconbar.html"></div>
+		<!-- Page Content -->
+		<div class="w3-padding-large" id="main">
+			<!-- Header/Home -->
+			<header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+			<h1 class="w3-jumbo"><span class="w3-hide-small">Spatial Statistics Lab</h1>
+			<p>Department of Statistics, Seoul National University</p>
+			<!--<img src="/images/spat_banner.jpg" style="width:1000px">-->
+			<div class="w3-padding-large", id="main">
+				<div class="w3-cell-row" style="width:80%">
+					<div class="w3-cell" style="width:60%">
+						<div class="container">
+							<img src="/images/geostat.jpg" alt="Avatar" class="image">
+							<div class="overlay">
+								<div class="text">Geostatistics</div>
+							</div>
+						</div>
+						<div class="container">
+							<img src="/images/lattice.jpg" alt="Avatar" class="image">
+							<div class="overlay">
+								<div class="text">Lattice Data</div>
+							</div>
+						</div>
 					</div>
-				</div>
-				<div class="container">
-					<img src="/images/lattice.jpg" alt="Avatar" class="image">
-					<div class="overlay">
-						<div class="text">Lattice Data</div>
+					<div class="w3-cell" style="width:40%">
+						<div class="container">
+							<img src="/images/pointprocess.jpg" alt="Avatar" class="image">
+							<div class="overlay">
+								<div class="text">Point Process</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="w3-cell" style="width:40%">
-				<div class="container">
-					<img src="/images/pointprocess.jpg" alt="Avatar" class="image">
-					<div class="overlay">
-						<div class="text">Point Process</div>
-					</div>
-				</div>
+			<!-- About Section -->
+			<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+				<h2 class="w3-text-light-grey">About</h2>
+				<hr style="width:200px" class="w3-opacity">
+				<p "color:white">Spatial Statistics lab focusses on various methodological and application-driven projects that deal with spatial and spatio-temporal data. Spatial Statistics is a sub-area of Statistics which study spatial and spatio-temporal data by considering spatial/spatio-temporal uncertainty. It includes applications in various fields such as Public Health, Climatology, Environmetrics, Neuroscience, Biomedical engineering, Computer experiments, etc.</p>
 			</div>
+			<!-- Footer -->
+			<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge" include-html="/include/footer.html"></footer>
+			<!-- END PAGE CONTENT -->
 		</div>
-	</div>
-  
-      <!-- About Section -->
-      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-        <h2 class="w3-text-light-grey">About</h2>
-        <hr style="width:200px" class="w3-opacity">
-        <p "color:white">Spatial Statistics lab focusses on various methodological and application-driven projects that deal with spatial and spatio-temporal data. Spatial Statistics is a sub-area of Statistics which study spatial and spatio-temporal data by considering spatial/spatio-temporal uncertainty. It includes applications in various fields such as Public Health, Climatology, Environmetrics, Neuroscience, Biomedical engineering, Computer experiments, etc.</p>
-
-        <!-- Footer -->
-        <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge" include-html="/include/footer.html"></footer>
-
-    <!-- END PAGE CONTENT -->
-      </div>
-  </body>
-      
-  <script>
-      includeHTML();
-  </script>
+	</body>
+			
+	<script>
+		includeHTML();
+		slideshowjs();
+	</script>
 </html>
