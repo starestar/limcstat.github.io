@@ -17,3 +17,5 @@ People Individual Page
 Contact Page layout
 
 Logo image change
+
+People Grid Auto
