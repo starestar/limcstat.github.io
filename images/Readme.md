@@ -12,3 +12,6 @@ https://commons.wikimedia.org/wiki/File:Fingerprint-146242.svg
 spatstat_logo.jpg
 : is made with open font which is provided by naver.
 https://software.naver.com/software/summary.nhn?softwareId=MFS_111086
+
+avatar.png
+https://thenounproject.com/term/avatar/72032/
