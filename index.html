@@ -90,7 +90,9 @@
 		includeHTML();
 		var slideIndex = 0;
 showSlides();
-function plusSlides() {
+function plusSlides(n) {
+	slideIndex+=n-1;
+	showSlides();
 }
 function showSlides() {
   var i;
@@ -106,7 +108,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 5000); // Change image every 2 seconds
+  setTimeout(showSlides, 5000);
 }
 	</script>
 </html>
