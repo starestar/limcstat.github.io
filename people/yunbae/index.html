@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<title> Welcome to Spatial Statistics Lab</title>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+		<script src="/js/includeHTML.js"></script>
+	</head>
+  
+	<style include-html="/style/style.html"></style>
+	
+	<body class="w3-black", id = "people">
+
+	    	<!-- Icon Bar (Sidebar - hidden on small screens) -->
+		<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center" include-html="/include/iconbar.html"></nav>
+	    	<!-- Navbar on small screens (Hidden on medium and large screens) -->
+		<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar" include-html="/include/smalliconbar.html"></div>
+		
+		<div class="w3-padding-large", id="main">
+			<div class="w3-cell-row" style="width:90%">
+				<div class="w3-cell" style="width:40%">
+					<img src="/people/name/files/name.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+					<p  class="w3-large w3-margin-right" style="width:250px"><span>name<span></p>
+					<p>Status</p>
+					<br><br><br>   
+					<p class="w3-wide">Office</p>
+					<center>
+						<i class="fa fa-building"></i>
+						Room 302, Building 25            
+					</center>
+					<p class="w3-wide">E-mail</p>
+					<center>
+						<i class="glyphicon glyphicon-envelope"></i>
+						mailName<span style="display:none">obfuscate</span>mailName
+					</center>
+					<br><br><br>
+					<p>self-introduction</p>
+				</div>
+				<div class="w3-cell w3-mobile" style="padding:0.3em"></div>
+				<div class="w3-cell" style="50%">
+					<h2 class="w3-text-light-grey">Topic</h2>
+					<hr style="width:200px" class="w3-opacity">
+					<ul>
+						<h4>something</h4>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+      		includeHTML();
+	</script>
+</html>
