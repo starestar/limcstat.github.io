@@ -30,7 +30,7 @@
 					</font>
 				</h1>
 				<h4>
-					<font face = "times new roman">
+					<font face = "arial">
 						<a href="https://stat.snu.ac.kr/" target="_blank">Department of Statistics</a>,
 						<a href="http://www.snu.ac.kr/index.html" target="_blank">Seoul National University</a><br>
 					</font>
@@ -104,27 +104,27 @@
 	<script>
 		includeHTML();
 		var slideIndex = 0;
-showSlides();
-function plusSlides(n) {
-	slideIndex+=n-1;
-	showSlides();
-}
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  if (slideIndex < 1) {slideIndex += slides.length}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 5000);
-}
+		showSlides();
+		function plusSlides(n) {
+			slideIndex+=n-1;
+			showSlides();
+		}
+		function showSlides() {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  for (i = 0; i < slides.length; i++) {
+		    slides[i].style.display = "none";  
+		  }
+		  slideIndex++;
+		  if (slideIndex > slides.length) {slideIndex = 1}    
+		  if (slideIndex < 1) {slideIndex += slides.length}    
+		  for (i = 0; i < dots.length; i++) {
+		    dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		  setTimeout(showSlides, 5000);
+		}
 	</script>
 </html>
