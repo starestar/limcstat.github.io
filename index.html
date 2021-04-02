@@ -105,9 +105,13 @@
 		includeHTML();
 		var slideIndex = 0;
 		var timer = 3000;
+		var timerId = null;
 		showSlides(1);
 		function plusSlides(n) {
-			clearTimeout(timerId);
+			if(timerId != null) {
+				clearTimeout(timerId);
+				timerId = null;
+			}
 			showSlides(slideIndex += n - 1);
 		}
 		function currentSlide(n) {
