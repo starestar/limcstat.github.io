@@ -9,6 +9,10 @@ function plusSlides(n) {
   showSlides(slideIndex += n - 1);
 }
 function currentSlide(n) {
+  if(timerId != null) {
+    clearTimeout(timerId);
+    timerId = null;
+  }
   showSlides(slideIndex = n);
 }
 function showSlides(n) {
