@@ -10,10 +10,8 @@ Logo image change
 
 People Grid Auto
 
-Contact Page layout
-
 Standardize home image size 
 
-Footer Link
+Footer Link and Position
 
 Other Language(Korean)
