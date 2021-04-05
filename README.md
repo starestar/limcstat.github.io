@@ -6,8 +6,6 @@ This is a webpage for Spatial Statistics Lab from Seoul National University.
 
 People Individual Page
 
-Publication Page
-
 Logo image change
 
 People Grid Auto
