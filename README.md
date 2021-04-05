@@ -14,6 +14,6 @@ Contact Page layout
 
 Standardize home image size 
 
-Other Language(Korean)
-
 Footer Link
+
+Other Language(Korean)
