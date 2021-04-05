@@ -12,6 +12,6 @@ People Grid Auto
 
 Standardize home image size 
 
-Footer Link and Position
+Footer Link
 
 Other Language(Korean)
