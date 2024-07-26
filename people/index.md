@@ -282,10 +282,12 @@ subtitle: Members of the lab
   font-weight: bold;
 }
 
-table, th, td {
-  border: none !important;
-}
-table {
+  .table-container {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling for the table */
+  }
+
+  table {
     width: 900px; /* Set the table width to 900px */
     margin: 0 auto; /* Center the table */
   }
