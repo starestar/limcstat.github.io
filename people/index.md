@@ -19,16 +19,6 @@ subtitle: Members of the lab
 
 <h1>Students</h1>
 <div class="person-box">
-<div class="person-container">
-  <div class="image-container">
-    <img src="/people/kyeongeun/files/kyeongeun.jpg" alt="Kyeongeun Kim">
-  </div>
-  <div class="text-container">
-    <a class="name" href="/people/kyeongeun/">Kyeongeun Kim</a>
-    <p>Ph.D. Student (2019~)</p>
-    <p>MS. (2017~2019)</p>
-  </div>
-</div>
 
 <div class="person-container">
   <div class="image-container">
@@ -116,28 +106,34 @@ subtitle: Members of the lab
     </tr>
   </thead>
   <tbody>
+
+  <tr>
+    <td> KyeongEun Kim </td>
+    <td>Ph.D. 2024</td>
+    <td>LG Energy Solution </td>
+  </tr>
     <tr>
-      <td>Sujung Kim</td>
+      <td>SuJung Kim</td>
       <td>MS. 2024</td>
       <td>Samsung Electronics</td>
     </tr>
  <tr>
-      <td>Sujeong Jin</td>
+      <td>SuJeong Jin</td>
       <td>MS. 2024</td>
       <td>Samsung Electronics</td>
     </tr>
  <tr>
-      <td>Songhyun Kim</td>
+      <td>SongHyun Kim</td>
       <td>Ph.D. 2024</td>
       <td>Presto Labs</td>
     </tr>
 <tr>
-      <td>Taejun Park</td>
+      <td>TaeJun Park</td>
       <td>MS. 2023</td>
       <td>Samsung Electronics</td>
     </tr>
    <tr>
-      <td>Joonho Shin</td>
+      <td>JoonHo Shin</td>
       <td>Ph.D. 2023</td>
       <td>Assistant Professor at Sungshin Women's University</td>
     </tr>
@@ -147,12 +143,12 @@ subtitle: Members of the lab
       <td>Postdoctoral Fellow in University of Houston, USA</td>
     </tr>
   <tr>
-      <td>Jin U Soh</td>
+      <td>JinU Soh</td>
       <td>MS. 2021</td>
       <td>Ph.D. student in Seoul National University</td>
     </tr>
    <tr>
-      <td>Yoon-Bae Jun</td>
+      <td>YoonBae Jun</td>
       <td>Ph.D. 2021</td>
       <td>Postdoctoral Fellow in Iowa State University, USA</td>
     </tr>
@@ -162,42 +158,42 @@ subtitle: Members of the lab
       <td>Data science lead in Bluebird Media</td>
     </tr>
      <tr>
-      <td>Mongju Jeong</td>
+      <td>MongJu Jeong</td>
       <td>MS. 2020</td>
       <td>Ph.D. student in Seoul National University</td>
     </tr>
     <tr>
-      <td>Yang Hyun Seok</td>
+      <td>HyunSeok Yang</td>
       <td>MS. 2020</td>
       <td>Samsung Electronics</td>
     </tr>
    <tr>
-      <td>Kyeongeun Kim</td>
+      <td>KyeongEun Kim</td>
       <td>MS. 2019</td>
       <td>Ph.D. student in Seoul National University</td>
     </tr>
  <tr>
-      <td>Eunseong Bae</td>
+      <td>EunSeong Bae</td>
       <td>MS. 2019</td>
       <td>Ph.D. student in University of California, Davis</td>
     </tr>
     <tr>
-      <td>Yujin Shin</td>
+      <td>YuJin Shin</td>
       <td>MS. 2018</td>
       <td>Korea Credit Bureau</td>
     </tr>
      <tr>
-      <td>Euntaeg Go</td>
+      <td>EunTaeg Go</td>
       <td>MS. 2018</td>
       <td>Samsung Electronics</td>
     </tr>
    <tr>
-      <td>Minwoo Kim</td>
+      <td>MinWoo Kim</td>
       <td>MS. 2017</td>
       <td>Assistant Professor at Pusan National University</td>
     </tr>
     <tr>
-      <td>Sukhwan Kim</td>
+      <td>SukHwan Kim</td>
       <td>MS. 2017</td>
       <td>NICE Information Service</td>
     </tr>
@@ -207,7 +203,7 @@ subtitle: Members of the lab
       <td></td>
     </tr>
 <tr>
-      <td>Wei-Ying Wu</td>
+      <td>WeiYing Wu</td>
       <td>Ph.D. 2011</td>
       <td>Professor at National Dong Hwa University, Taiwan</td>
     </tr>
