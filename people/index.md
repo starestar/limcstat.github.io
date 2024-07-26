@@ -282,12 +282,29 @@ subtitle: Members of the lab
   font-weight: bold;
 }
 
-table {
-  width: 100%;
-}
-
 table, th, td {
   border: none !important;
 }
-  
+table {
+    width: 900px; /* Set the table width to 900px */
+    margin: 0 auto; /* Center the table */
+  }
+
+  th, td {
+    height: 40px; /* Set the height of table cells to 40px */
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tr:hover {
+    background-color: #e2e2e2;
+  }
 </style>
