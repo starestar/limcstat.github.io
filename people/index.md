@@ -212,113 +212,82 @@ subtitle: Members of the lab
 
 <style>
   h1 {
-    margin-bottom: 50px;
-    margin-top: 50px;
-    text-align: center;
-  }
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
 
-  .prof-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
+.prof-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 
+.person-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the .person-container elements */
+  gap: 20px; /* Optional: Adds space between the containers */
+}
+
+.person-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Keeps content left-aligned within each .person-container */
+  width: calc(50% - 10px); /* Adjust width as needed, accounting for the gap */
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px; /* Space between image and text */
+}
+
+.image-container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-container p {
+  margin: 0 !important; /* Remove default margin */
+}
+
+.text-container a {
+  color: #000000; /* Sets hyperlink text to black. Adjust the color value as needed */
+}
+
+@media (max-width: 768px) {
   .person-box {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center; /* Center the .person-container elements */
-    gap: 20px; /* Optional: Adds space between the containers */
   }
 
   .person-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; /* Keeps content left-aligned within each .person-container */
-    width: calc(50% - 10px); /* Adjust width as needed, accounting for the gap */
-    margin-bottom: 20px;
+    width: 100%; /* Full width on smaller screens */
+    justify-content: center; /* Center content within each .person-container */
   }
+}
 
-  .image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px; /* Space between image and text */
-  }
 
-  .image-container img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-  }
+.name {
+  font-weight: bold;
+}
 
-  .text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+table {
+  width: 100%;
+}
 
-  .text-container p {
-    margin: 0 !important; /* Remove default margin */
-  }
-
-  .text-container a {
-    color: #000000; /* Sets hyperlink text to black. Adjust the color value as needed */
-  }
-
-  @media (max-width: 768px) {
-    .person-box {
-      justify-content: center; /* Center the .person-container elements */
-    }
-
-    .person-container {
-      width: 100%; /* Full width on smaller screens */
-      justify-content: center; /* Center content within each .person-container */
-    }
-
-    .table-container {
-      overflow-x: auto; /* Enable horizontal scrolling for the table */
-    }
-
-    table {
-      width: 100%; /* Ensure the table takes full width on smaller screens */
-    }
-
-    th, td {
-      font-size: 12px; /* Reduce font size for better fit on smaller screens */
-      padding: 8px; /* Reduce padding for better fit on smaller screens */
-    }
-  }
-
-  .name {
-    font-weight: bold;
-  }
-
-  .table-container {
-    width: 100%;
-    overflow-x: auto; /* Enable horizontal scrolling for the table */
-  }
-
-  table {
-    width: 900px; /* Set the table width to 900px */
-    margin: 0 auto; /* Center the table */
-  }
-
-  th, td {
-    height: 40px; /* Set the height of table cells to 40px */
-    padding: 10px;
-    text-align: left;
-  }
-
-  th {
-    background-color: #f2f2f2;
-  }
-
-  tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-
-  tr:hover {
-    background-color: #e2e2e2;
-  }
+table, th, td {
+  border: none !important;
+}
+  
 </style>
