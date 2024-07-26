@@ -276,17 +276,9 @@ subtitle: Members of the lab
       justify-content: center; /* Center content within each .person-container */
     }
 
-    .table-container {
-      overflow-x: auto; /* Enable horizontal scrolling for the table */
-    }
-
     table {
-      width: 100%; /* Ensure the table takes full width on smaller screens */
-    }
-
-    th, td {
-      font-size: 12px; /* Reduce font size for better fit on smaller screens */
-      padding: 8px; /* Reduce padding for better fit on smaller screens */
+      width: 100%; /* Full width on smaller screens */
+      overflow-x: auto; /* Enable horizontal scrolling for the table */
     }
   }
 
@@ -302,6 +294,7 @@ subtitle: Members of the lab
   table {
     width: 100%;
     margin: 0 auto; /* Center the table */
+    border-collapse: collapse; /* Collapse borders for consistent styling */
   }
 
   th, td {
