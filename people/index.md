@@ -266,30 +266,31 @@ subtitle: Members of the lab
     color: #000000; /* Sets hyperlink text to black. Adjust the color value as needed */
   }
 
-  @media (max-width: 768px) {
-    .person-box {
-      justify-content: center; /* Center the .person-container elements */
-    }
-
-    .person-container {
-      width: 100%; /* Full width on smaller screens */
-      justify-content: center; /* Center content within each .person-container */
-    }
-
-    table {
-      width: 100%; /* Full width on smaller screens */
-      overflow-x: auto; /* Enable horizontal scrolling for the table */
-    }
+@media (max-width: 768px) {
+  .person-box {
+    justify-content: center; /* Center the .person-container elements */
   }
 
-  .name {
-    font-weight: bold;
+  .person-container {
+    width: 100%; /* Full width on smaller screens */
+    justify-content: center; /* Center content within each .person-container */
   }
+}
 
-  .table-container {
-    width: 100%;
-    overflow-x: auto; /* Enable horizontal scrolling for the table */
-  }
+ 
+.name {
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: none !important;
+}
+
+@media only screen and (min-width: 1024px){
 
   table {
     width: 100%;
@@ -315,4 +316,5 @@ subtitle: Members of the lab
   tr:hover {
     background-color: #e2e2e2;
   }
+}
 </style>
