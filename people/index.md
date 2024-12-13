@@ -109,7 +109,7 @@ subtitle: Members of the lab
 
   <tr>
     <td> KyeongEun Kim </td>
-    <td>Ph.D. 2024</td>
+    <td>MS. 2019<br>Ph.D. 2024</td>
     <td>LG Energy Solution </td>
   </tr>
     <tr>
