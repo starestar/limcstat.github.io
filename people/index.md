@@ -23,12 +23,12 @@ subtitle: Members of the lab
 <div class="person-container">
   <div class="image-container">
     <img src="/people/mongju/files/mongju.jpg" alt="Mongju Jeong">
-    </div>
-    <div class="text-container">
+  </div>
+  <div class="text-container">
     <a class="name" href="/people/mongju/">Mongju Jeong</a>
     <p>Ph.D. Student(2020~)</p>
     <p>MS. (2018~2020)</p>
-    </div>
+  </div>
 </div>
 
 <div class="person-container">
@@ -82,7 +82,6 @@ subtitle: Members of the lab
     <p>M.S. Student (2024~)</p>
   </div>
 </div>
-</div>
 
 <div class="person-container">
   <div class="image-container">
@@ -92,7 +91,6 @@ subtitle: Members of the lab
     <a class="name" href="/people/jungwoo/">JungWoo Lee</a>
     <p>Ph.D. Student (2025~)</p>
   </div>
-</div>
 </div>
 
 <div class="person-container">
