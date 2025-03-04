@@ -64,17 +64,6 @@ subtitle: Members of the lab
 
 <div class="person-container">
   <div class="image-container">
-    <img src="/people/dangchan/files/dangchan.jpg" alt="Dangchan Kim">
-  </div>
-  <div class="text-container">
-    <a class="name" href="/people/dangchan/">Dangchan Kim</a>
-    <p>M.S. Student (2023~)</p>
-  </div>
-</div>
-
-
-<div class="person-container">
-  <div class="image-container">
     <img src="/people/gooyoung/files/gooyoung.jpg" alt="Gooyoung Kim">
   </div>
   <div class="text-container">
@@ -95,6 +84,39 @@ subtitle: Members of the lab
 </div>
 </div>
 
+<div class="person-container">
+  <div class="image-container">
+    <img src="/people/heonjeong/files/heonjeong.jpg" alt="Heonjeong Kwon">
+  </div>
+  <div class="text-container">
+    <a class="name" href="/people/heonjeong/">Heonjeong Kwon</a>
+    <p>M.S. Student (2024~)</p>
+  </div>
+</div>
+</div>
+
+<div class="person-container">
+  <div class="image-container">
+    <img src="/people/jungwoo/files/jungwoo.jpg" alt="JungWoo Lee">
+  </div>
+  <div class="text-container">
+    <a class="name" href="/people/jungwoo/">JungWoo Lee</a>
+    <p>Ph.D. Student (2025~)</p>
+  </div>
+</div>
+</div>
+
+<div class="person-container">
+  <div class="image-container">
+    <img src="/people/hyungyeong/files/hyungyeong.jpg" alt="HyunGyeong Hong">
+  </div>
+  <div class="text-container">
+    <a class="name" href="/people/hyungyeong/">HyunGyeong Hong</a>
+    <p>M.S. Student (2025~)</p>
+  </div>
+</div>
+</div>
+
 <h1>Alumni</h1>
 
 <table>
@@ -106,6 +128,12 @@ subtitle: Members of the lab
     </tr>
   </thead>
   <tbody>
+
+ <tr>
+      <td>DangChan Kim</td>
+      <td>MS. 2025</td>
+      <td>Korea National Police Agency</td>
+    </tr>
 
   <tr>
     <td> KyeongEun Kim </td>
