@@ -155,7 +155,7 @@ subtitle: Members of the lab
     <tr>
       <td>Hojun You</td>
       <td>Ph.D. 2022</td>
-      <td>Postdoctoral Fellow in University of Houston, USA</td>
+      <td>LINE Plus Corp.</td>
     </tr>
   <tr>
       <td>JinU Soh</td>
@@ -165,7 +165,7 @@ subtitle: Members of the lab
    <tr>
       <td>YoonBae Jun</td>
       <td>Ph.D. 2021</td>
-      <td>Postdoctoral Fellow in Iowa State University, USA</td>
+      <td>Assistant Professor, School of Public Health, University of Nevada, Reno, USA</td>
     </tr>
 <tr>
       <td>Elias Wennberg</td>
@@ -182,12 +182,7 @@ subtitle: Members of the lab
       <td>MS. 2020</td>
       <td>Samsung Electronics</td>
     </tr>
-   <tr>
-      <td>KyeongEun Kim</td>
-      <td>MS. 2019</td>
-      <td>Ph.D. student in Seoul National University</td>
-    </tr>
- <tr>
+    <tr>
       <td>EunSeong Bae</td>
       <td>MS. 2019</td>
       <td>Ph.D. student in University of California, Davis</td>
