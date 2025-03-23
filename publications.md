@@ -1,14 +1,29 @@
 ---
 layout: page
 title: Publications
-subtitle: Selected Peer-Reviewed Journals
+subtitle: Selected Peer-Reviewed Articles
 ---
-**Lim, C.** and Wu, W. (2022)  
+**You, H.**, **Wu, W.**, **Lim, C.**, Yoon, K. and Choi, J. (2024)   
+*Spatial Regression with Multiplicative Errors, and Its Application with Lidar Measurements.*  
+*Journal of the Korean StatisticalSociety, 53, 1177-1204.*  
+[Link to Article](https://link.springer.com/article/10.1007/s42952-024-00282-3)
+
+**Kim, S.**, **Lim, C.**, Rho, Y. (2024)   
+*Spatio-temporal analysis of dependent risk with an application to cyberattacks data.*  
+*The Annals of Applied Statistics, 18, 3549-3569.*  
+[Link to Article](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-18/issue-4/Spatio-temporal-analysis-of-dependent-risk-with-an-application-to/10.1214/24-AOAS1952.full)
+
+**You, H.**, Yoon, K., **Wu, W.**, Choi, J. and **Lim, C.** (2024)  
+*Regularized Nonlinear Regression with Dependent Errors and its Application to a Biomechanical Model.*   
+*Annals of the Institute of Statistical Mathematics, 76, 481-510.*  
+[Link to Article](https://link.springer.com/article/10.1007/s10463-023-00895-1)
+
+**Lim, C.** and **Wu, W.** (2022)  
 *Conditions on which cokriging does not better than kriging.*  
 *Journal of Multivariate Analysis. 192, 105084.*  
 [Link to Article](https://doi.org/10.1016/j.jmva.2022.105084)
 
-**Chakraborty, S., Dey, T.,** **Jun, Y.,** **Lim, C**, Mukherjee, A, and Dominici, F. (2022)  
+Chakraborty, S., Dey, T., **Jun, Y.,** **Lim, C**, Mukherjee, A, and Dominici, F. (2022)  
 *A spatio-temporal analytical outlook of the exposure to air pollution and COVID-19 mortality in the United States.*  
 *Journal of Agricultural Biological, and Environmental Statistics, 27(3)*  
 [Link to Article](https://doi.org/10.1007/s13253-022-00487-1)
@@ -43,7 +58,7 @@ Nandy, S., **Lim, C.** and Maiti, T. (2017)
 *Journal of Royal Statistical Society Series B, 79, 779-800.*  
 [Link to Article](https://doi.org/10.1111/rssb.12195)
 
-Wu, W. and **Lim, C.** (2016)  
+**Wu, W.** and **Lim, C.** (2016)  
 *Estimation of smoothness of a stationary Gaussian random field.*  
 *Statistica Sinica, 26, 1729-1745.*  
 [Link to Article](https://doi.org/10.5705/ss.202014.0109)
@@ -68,7 +83,7 @@ Dass, S. C., **Lim, C.** and Maiti, T. (2014)
 *Annals of Applied Statistics, 8, 1314-1340.*  
 [Link to Article](https://doi.org/10.1214/14-aoas734)
 
-Wu, W., **Lim, C.** and Xiao, Y. (2013)  
+**Wu, W.**, **Lim, C.** and Xiao, Y. (2013)  
 *Tail Estimation of the Spectral Density for a Stationary Gaussian Random Field.*  
 *Journal of Multivariate Analysis, 116, 74-91.*  
 [Link to Article](https://doi.org/10.1016/j.jmva.2012.11.014)
