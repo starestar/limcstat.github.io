@@ -102,7 +102,21 @@ subtitle: Members of the lab
     <p>M.S. Student (2025~)</p>
   </div>
 </div>
+
+<div class="person-container">
+  <div class="image-container">
+    <img src="/people/yunseo/files/yunseo.jpg" alt="YunSeo Chu">
+  </div>
+  <div class="text-container">
+    <a class="name" href="/people/yunseo/">YunSeo Chu</a>
+    <p>M.S. Student (2025~)</p>
+  </div>
 </div>
+</div>
+
+
+
+
 
 <h1>Alumni</h1>
 
