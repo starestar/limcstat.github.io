@@ -22,17 +22,6 @@ subtitle: Members of the lab
 
 <div class="person-container">
   <div class="image-container">
-    <img src="/people/mongju/files/mongju.jpg" alt="Mongju Jeong">
-  </div>
-  <div class="text-container">
-    <a class="name" href="/people/mongju/">Mongju Jeong</a>
-    <p>Ph.D. Student(2020~)</p>
-    <p>MS. (2018~2020)</p>
-  </div>
-</div>
-
-<div class="person-container">
-  <div class="image-container">
     <img src="/people/jinu/files/jinu.jpg" alt="Jin U Soh">
   </div>
   <div class="text-container">
@@ -130,6 +119,11 @@ subtitle: Members of the lab
   </thead>
   <tbody>
 
+  <tr>
+      <td> MongJu Jeong </td>
+      <td>MS. 2020<br>Ph.D. 2025</td>
+      <td>Samsung SDS </td>
+  </tr>
  <tr>
       <td>DangChan Kim</td>
       <td>MS. 2025</td>
