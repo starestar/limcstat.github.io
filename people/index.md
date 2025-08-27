@@ -180,11 +180,6 @@ subtitle: Members of the lab
       <td>MS. 2020</td>
       <td>Data science lead in Bluebird Media</td>
     </tr>
-     <tr>
-      <td>MongJu Jeong</td>
-      <td>MS. 2020</td>
-      <td>Ph.D. student in Seoul National University</td>
-    </tr>
     <tr>
       <td>HyunSeok Yang</td>
       <td>MS. 2020</td>
