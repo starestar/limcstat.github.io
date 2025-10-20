@@ -158,7 +158,7 @@ subtitle: Members of the lab
    <tr>
       <td>JoonHo Shin</td>
       <td>Ph.D. 2023</td>
-      <td>Assistant Professor at Sungshin Women's University</td>
+      <td>Assistant Professor, Sungshin Women's University</td>
     </tr>
     <tr>
       <td>Hojun You</td>
@@ -203,7 +203,7 @@ subtitle: Members of the lab
    <tr>
       <td>MinWoo Kim</td>
       <td>MS. 2017</td>
-      <td>Assistant Professor at Pusan National University</td>
+      <td>Assistant Professor, Pusan National University</td>
     </tr>
     <tr>
       <td>SukHwan Kim</td>
@@ -218,7 +218,7 @@ subtitle: Members of the lab
 <tr>
       <td>WeiYing Wu</td>
       <td>Ph.D. 2011</td>
-      <td>Professor at National Dong Hwa University, Taiwan</td>
+      <td>Professor, National Dong Hwa University, Taiwan</td>
     </tr>
   </tbody>
 </table>
