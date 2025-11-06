@@ -148,7 +148,7 @@ subtitle: Members of the lab
     <tr>
       <td>Sangmin Jin</td>
       <td>MS. 2022</td>
-      <td>Korea Credit Bureau </td>
+      <td>Korea Credit Bureau</td>
     </tr>
     <tr>
       <td>Hojun You</td>
