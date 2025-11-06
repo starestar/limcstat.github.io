@@ -161,6 +161,11 @@ subtitle: Members of the lab
       <td>Assistant Professor, Sungshin Women's University</td>
     </tr>
     <tr>
+      <td>Sangmin Jin</td>
+      <td>MS. 2022</td>
+      <td>Korea Credit Bureau</td>
+    </tr>
+    <tr>
       <td>Hojun You</td>
       <td>Ph.D. 2022</td>
       <td>LINE Plus Corp.</td>
